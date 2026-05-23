@@ -157,7 +157,7 @@ In TuberSwitch:
 6. Approve the requested scopes.
 7. Return to TuberSwitch after the app reports that Twitch is connected.
 
-Token note: the MVP stores Twitch tokens in the local JSON config. A later hardening pass should move tokens to Windows Credential Manager.
+Token note: Twitch tokens and the OBS password are stored in the OS credential store instead of the local JSON config.
 
 ## First-Time Workflow
 

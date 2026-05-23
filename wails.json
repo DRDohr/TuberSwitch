@@ -6,6 +6,11 @@
   "frontend:build": "npm run build",
   "frontend:dev:watcher": "npm run dev",
   "frontend:dev:serverUrl": "auto",
+  "info": {
+    "companyName": "LastUrsa",
+    "productName": "TuberSwitch",
+    "productVersion": "0.1.0"
+  },
   "author": {
     "name": "LastUrsa",
     "email": "DRDohr@gmail.com"
