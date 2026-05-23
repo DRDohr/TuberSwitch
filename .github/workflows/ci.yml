@@ -31,9 +31,6 @@ jobs:
         working-directory: frontend
         run: npm ci
 
-      - name: Run Go tests with coverage
-        run: go test ./... -cover
-
       - name: Run frontend tests with coverage
         working-directory: frontend
         run: npm run test:coverage
@@ -41,3 +38,6 @@ jobs:
       - name: Build frontend
         working-directory: frontend
         run: npm run build
+
+      - name: Run Go tests with coverage
+        run: go test ./... -cover
